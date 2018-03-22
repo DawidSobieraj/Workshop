@@ -151,14 +151,84 @@ body {
     }
   }
 
-  .box {
+  .box1 {
+    border: 2px solid #ababab;
     margin-top: 60px;
     height: 450px;
     width: 330px;
     position: relative;
+    background-color: #f0f0f0;
+    div {
+      text-align: center;
+    }
+    .box1Cont1 {
+      margin-top: 35px;
+      color: #27c7ab;
+      font-size: 25px;
+    }
+    .box1Cont2 {
+      font-weight: bolder;
+      color: #ababab;
+      font-size: 50px;
+      margin-top: 20px;
+      sup {
+        font-size: 30px;
+        font-weight: lighter;
+      }
+    }
+    .box1Cont3 {
+      color: #ababab;
+      font-weight: 900;
+    }
+    .box1Cont4 {
+      margin-top: 160px;
+      font-size: 25px;
+      background: #c6c6c6;
+      color: #5b5a5a;
+      width: 100%;
+      padding: 5px 0 5px 0;
+    }
+    .box1Cont5 {
+      font-size: 25px;
+      background: #dfdfdf;
+      color: #5b5a5a;
+      width: 100%;
+      padding: 5px 0 5px 0;
+    }
+    .box1Cont6 {
+      font-size: 20px;
+      border-radius: 10px 10px 10px 10px;
+      margin: 85px 90px;
+      padding: 10px;
+      background: #27c7ab;
+      color: white;
+    }
+    .box1Cont7 {
+      font-size: 25px;
+      background: #c6c6c6;
+      color: #5b5a5a;
+      width: 100%;
+      padding: 5px 0 5px 0;
+    }
+    .box1Cont8 {
+      font-size: 25px;
+      background: #dfdfdf;
+      color: #5b5a5a;
+      width: 100%;
+      padding: 5px 0 5px 0;
+    }
+    .box1Cont9 {
+      font-size: 20px;
+      border-radius: 10px 10px 10px 10px;
+      margin: 10px 90px;
+      padding: 10px;
+      background: #27c7ab;
+      color: white;
+    }
   }
 
-  .circle {
+  .circle1 {
+    border: 2px solid #ababab;
     width: 60px;
     height: 60px;
     position: absolute;
@@ -169,10 +239,53 @@ body {
     background: white;
   }
 
-  .dot {
+  .bigCircle1 {
+    border: 2px solid #ababab;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 80px;
+    left: 105px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .dot1 {
     height: 30px;
     width: 30px;
-    background: black;
+    background-color: #ababab;
+    position: absolute;
+    left: 50%;
+    top: -1%;
+    margin-left: -15px;
+    margin-top: -15px;
+    border-radius: 50%;
+  }
+
+  .box2 {
+    border: 2px solid #ababab;
+    margin-top: 60px;
+    height: 450px;
+    width: 330px;
+    position: relative;
+  }
+
+  .circle2 {
+    border: 2px solid #ababab;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    margin-left: -30px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .dot2 {
+    height: 30px;
+    width: 30px;
+    background-color: #ababab;
     position: absolute;
     left: 50%;
     top: -1%;
@@ -197,16 +310,6 @@ body {
         margin: 5px 10px 10px 0;
         padding-top: 10px;
         border-bottom: 8px solid #27c7ab;
-      }
-      .box {
-        border: 2px solid #ababab;
-        .circle {
-          border: 2px solid #ababab;
-          .dot {
-            background-color: #ababab;
-
-          }
-        }
       }
     }
   }
