@@ -89,6 +89,7 @@ body {
 
   }
   .gradientBackground {
+    max-height: 425px;
     background: rgba(252,252,252,1);
     background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(252,252,252,1) 59%, rgba(174,174,174,1) 96%, rgba(166,166,166,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,252,252,1)), color-stop(59%, rgba(252,252,252,1)), color-stop(96%, rgba(174,174,174,1)), color-stop(100%, rgba(166,166,166,1)));
@@ -97,25 +98,25 @@ body {
     background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(252,252,252,1) 59%, rgba(174,174,174,1) 96%, rgba(166,166,166,1) 100%);
     background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(252,252,252,1) 59%, rgba(174,174,174,1) 96%, rgba(166,166,166,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#a6a6a6', GradientType=0 );
+     .container {
+       display: flex;
+       flex-direction: row;
       .leftSlider {
-        float: left;
-        width: 5%;
+        width: 10%;
         font-size: 75px;
         font-weight: 100;
-        line-height: 500px;
+        line-height: 400px;
       }
       .firstSectionImg {
         background: url("../images/black_chair.png") no-repeat left/contain;
-        float: left;
-        width: 50%;
-        margin: 70px -50px;
-        height: 400px;
+        width: 470px;
+        margin: 45px -50px;
+        height: 337px;
 
       }
       .mainText {
-        float: left;
-        width: 40%;
-        margin-top: 150px;
+        width: 39%;
+        margin-top: 110px;
         .button {
           font-size: 20px;
           border-radius: 10px 10px 10px 10px;
@@ -134,13 +135,13 @@ body {
         }
       }
       .rightSlider {
-        float: right;
-        width: 5%;
+        width: 14%;
         font-size: 75px;
         font-weight: 100;
         text-align: right;
-        line-height: 500px;
+        line-height: 400px;
       }
+     }
     .clearfix::after {
       clear: both;
       content: '';
