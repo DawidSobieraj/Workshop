@@ -1,2 +1,5 @@
 # Workshop
-Repository showing workshop that I made while taking programming classes
+Repository showing my first page while still learning front-end.
+
+# What's used?
+HTML,SASS/CSS, JavaScript, ECMAScript6
